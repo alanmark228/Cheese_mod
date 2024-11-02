@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "":{
+      "model":"cheese_mod:block/vat_block"
+    }
+  }
+}

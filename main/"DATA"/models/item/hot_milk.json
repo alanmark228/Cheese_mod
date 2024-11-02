@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"1": "cheese_mod:item/hot_milk",
+		"particle": "item/hot_milk"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [166, 0, 90],
+			"translation": [-5.25, 3, 0.75],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [166, 0, -90],
+			"translation": [5.25, 3, 0.75],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_righthand": {
+			"rotation": [166, 0, 90],
+			"translation": [-5.25, 3, 0.75],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [166, 0, -90],
+			"translation": [5.25, 3, 0.75],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"ground": {
+			"rotation": [180, 0, 0],
+			"translation": [0, -7.75, 0],
+			"scale": [0.77, 0.77, 0.77]
+		},
+		"gui": {
+			"rotation": [89, 0, 0]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 8.5]
+		}
+	}
+}

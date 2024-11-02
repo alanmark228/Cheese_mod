@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"cheese_mod:cheese_block"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "cheese_mod:cheese"
+  }
+}

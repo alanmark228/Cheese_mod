@@ -1,0 +1,15 @@
+{
+  "language":"English",
+  "language.region":"Unated States",
+  "language.code":"en_us",
+  "item.cheese_mod.knife":"Knife",
+  "item.cheese_mod.hammer":"Hammer",
+  "item.cheese_mod.cheese":"Cheese",
+  "item.cheese_mod.spores":"Spores",
+  "item.cheese_mod.hot_milk":"Hot Milk",
+  "item.cheese_mod.cheese_with_spores":"Cheese With Spores",
+  "block.cheese_mod.cheese_block":"Cheese Block",
+  "block.cheese_mod.vat_block":"Vat",
+  "creativetab.cheese_mod_tab":"Cheese Mod",
+  "item.cheees_mod.hammer.tooltip":"Bonk"
+}

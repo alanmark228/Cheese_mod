@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"cheese_block",
+  "ingredients": [
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    },
+    {
+      "item":"cheese_mod:cheese"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "cheese_mod:cheese_block"
+  }
+}

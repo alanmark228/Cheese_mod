@@ -1,0 +1,15 @@
+{
+  "language": "Russian",
+  "language.region": "Russia",
+  "language.code": "ru_ru",
+  "item.cheese_mod.knife": "Нож",
+  "item.cheese_mod.hammer": "Малоток",
+  "item.cheese_mod.cheese": "Сыр",
+  "item.cheese_mod.spores":"Споры",
+  "item.cheese_mod.hot_milk":"Горячие Молоко",
+  "item.cheese_mod.cheese_with_spores":"Сыр Со Спорами",
+  "block.cheese_mod.cheese_block":"Сырный блок",
+  "block.cheese_mod.vat_block":"Кега",
+  "creativetab.cheese_mod_tab":"Бражение",
+  "item.cheees_mod.hammer.tooltip":"Боньк"
+}

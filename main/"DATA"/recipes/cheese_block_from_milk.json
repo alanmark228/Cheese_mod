@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"cheese_block",
+  "ingredients": [
+    {
+      "item":"cheese_mod:hot_milk"
+    },
+    {
+      "item":"cheese_mod:spores"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "cheese_mod:cheese_block"
+  }
+}

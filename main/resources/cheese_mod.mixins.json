@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "org.sdawdsd.cheese_mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cheese_mod.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
