@@ -5,6 +5,8 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.checkerframework.checker.nullness.qual.NonNull;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.sdawdsd.cheese_mod.util.Cheese_mod_tags;
 
@@ -16,8 +18,8 @@ public class Mod_block_tag_generator extends BlockTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider p_256380_) {
-        tag(Cheese_mod_tags.Blocks.MUSHROOM_DETECTOR_VALUES).add(Blocks.BROWN_MUSHROOM).add(Blocks.RED_MUSHROOM);
+    protected void addTags(HolderLookup.@NonNull Provider p_256380_) {
+        this.tag(Cheese_mod_tags.Blocks.MUSHROOM_DETECTOR_VALUES).add(Blocks.BROWN_MUSHROOM).add(Blocks.RED_MUSHROOM);
     }
 
 

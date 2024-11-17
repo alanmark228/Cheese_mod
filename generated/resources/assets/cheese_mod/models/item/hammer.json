@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "0": "cheese_mod:item/hammer"
+    "layer0": "cheese_mod:item/hammer"
   }
 }

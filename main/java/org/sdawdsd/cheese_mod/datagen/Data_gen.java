@@ -14,15 +14,15 @@ import java.util.concurrent.CompletableFuture;
 @Mod.EventBusSubscriber(modid = Cheese_mod.MODID,bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Data_gen {
     @SubscribeEvent
-    public static void gather_data(GatherDataEvent e){
+    public static void gatherData(GatherDataEvent e){
         DataGenerator generator= e.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper efh = e.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> cF = e.getLookupProvider();
 
-        generator.addProvider(e.includeClient(),new Mod_block_state_provider(packOutput,Cheese_mod.MODID,efh));
+        generator.addProvider(e.includeServer(),new Mod_block_state_provider(packOutput,Cheese_mod.MODID,efh));
 
-        generator.addProvider(e.includeClient(),new Mod_item_model_provider(packOutput,Cheese_mod.MODID,efh));
+        generator.addProvider(e.includeServer(),new Mod_item_model_provider(packOutput,Cheese_mod.MODID,efh));
 
         generator.addProvider(e.includeServer(),new Mod_recipe_provider(packOutput));
 

@@ -24,7 +24,7 @@ public class Mod_item_model_provider extends ItemModelProvider {
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> i){
         return withExistingParent(i.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("0",
+                new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(Cheese_mod.MODID,
                         "item/"+i.getId().getPath()));
     }

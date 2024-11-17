@@ -44,7 +44,7 @@ public class Mod_recipe_provider extends RecipeProvider implements IConditionBui
             public void toNetwork(FriendlyByteBuf p_44101_, AbstractCookingRecipe p_44102_) {
 
             }
-        },null,cooking,RecipeCategory.MISC, Cheese_mod_items.HOTMILK.get(),0.7f,100,"hot","hot_milk");
+        },null,cooking,RecipeCategory.FOOD, Cheese_mod_items.HOTMILK.get(),0.7f,100,"hot","hot_milk");
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,Cheese_mod_items.KNIFE.get())
                 .pattern(" # ")
                 .pattern(" Y ")
